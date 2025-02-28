@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.dashboard {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: -10px;
+  margin-bottom: 30px;
+  margin: 20px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.chart {
+  background: white;
+  width: 35%;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  min-width: 400px;
+  margin: 10px;
+}
+
+.product-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.product-table th {
+  background: #4CAF50;
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+  }
+}
+
+.statistics {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
